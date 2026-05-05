@@ -1,0 +1,29 @@
+[global]
+
+exclude = [
+  ".git",
+  ".github",
+  "node_modules",
+  "vendor",
+  "dist",
+  "build",
+  "CHANGELOG.md",
+  "LICENSE.md",
+]
+
+respect-gitignore = true
+
+flavor = "gfm"
+
+# Table formatting
+[MD060]
+enabled = true
+style = "aligned"
+
+# Line length
+[MD013]
+line-length = 100
+
+# Inline html
+[MD033]
+disallowed-elements = ["gfm"]
